@@ -1,0 +1,19 @@
+#container{
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    border: 2px solid black;
+    padding: 2vw 2vw 0 2vw;
+    background-color: black;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bar{
+    width: 15px;
+    background:linear-gradient(white,gray);
+    margin: 2px;
+    border-radius: 10px 10px 0 0 ;
+}
